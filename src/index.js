@@ -3,7 +3,7 @@ const app = require('./app');
 const logger = require('./config/logger');
 const { wakeDyno } = require('heroku-keep-awake');
 const tempPORT = process.env.PORT || 5000;
-const DYNO_URL = 'http://space-bot-2021.herokuapp.com/v1/upcomingLaunches';
+const DYNO_URL = 'https://stellarot.herokuapp.com/v1/upcomingLaunches';
 const opts = {
   interval: 15,
   logging: false,
